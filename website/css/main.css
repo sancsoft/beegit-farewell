@@ -1,0 +1,64 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+ body {
+ 	-webkit-font-smoothing: antialiased;
+ 	-moz-osx-font-smoothing: grayscale;
+  text-align: center;
+ }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  line-height: 1.3;
+  color: inherit;
+}
+
+img {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+}
+img.dead-bee {
+  width: 400px;
+  height: 266px;
+}
+
+@media (min-width: 992px) {
+  .jumbotron {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+  .container {
+    position: relative;
+    height: 14rem;
+  }
+}
+
+.jumbotron {
+  background-color: #fff;
+}
+
+.jumbotron h1 {
+  font-size: 36px;
+}
+
+.jumbotron p {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.footer p {
+  font-size: 14px;
+}
